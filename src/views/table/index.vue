@@ -107,7 +107,7 @@ export default class extends Vue {
     // Just to simulate the time of the request
     setTimeout(() => {
       this.listLoading = false
-    }, 0.5 * 1000)
+    }, 1000)
   }
 }
 </script>
